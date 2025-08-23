@@ -1,0 +1,1 @@
+ let out=console.log(obj)
