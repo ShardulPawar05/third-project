@@ -6,11 +6,14 @@ import Greeting from './Greeting';
 function App() {
 
 
+  const name='shardul pawar';
+
   return (
+    <div>
  
-      <Greeting/>
+      <Greeting username={name}/>
 
-
+   </div>
 
   
   );
