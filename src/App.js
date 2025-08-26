@@ -6,12 +6,11 @@ import Greeting from './Greeting';
 function App() {
 
 
-  const name='shardul pawar';
-
+let student=["shardul","Gaurav","Trusha","Sharvni","rutuja"]
   return (
     <div>
  
-      <Greeting username={name}/>
+      <Greeting username={student}/>
 
    </div>
 
